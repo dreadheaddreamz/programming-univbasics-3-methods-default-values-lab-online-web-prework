@@ -1,6 +1,6 @@
-def #meal_choice(Veg1, Vwg2, Protien = "meat")
+def #meal_choice(Veg1, Veg2, Protien = "meat")
 puts "What a nutritious meal!"
-puts "A plate of #{Protien} #{Veg1} and #{Veg2} "
+meal = "A plate of #{Protien} #{Veg1} and #{Veg2} "
+meal
 end
 
-meal_choice("brocoli", "tomatoes")
